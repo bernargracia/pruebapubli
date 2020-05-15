@@ -1,0 +1,36 @@
+
+#info{
+    background: #000;
+    color: whitesmoke;
+    text-align: center;
+    border-top: solid 2px olivedrab;
+    border-bottom: solid 2px olivedrab;
+ 
+}
+
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.info-pet{
+    margin: 10px;
+}
+
+.info-pet img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px solid #777;
+} 
+
+.info-pet img:hover{
+    filter: blur(1px);
+    transform: rotate(10deg) scale(1.1);
+}
+
+h5{
+ padding-top: 15px;
+}

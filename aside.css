@@ -1,0 +1,78 @@
+
+.section{
+    
+    display: flex;
+}
+
+.articulos{
+   
+    flex: 2 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.article{
+
+    flex:1 1 45%;
+    color: whitesmoke;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 10px 10px 0px 0px;
+   
+}
+
+.article img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.article a{
+    color: whitesmoke;
+    font-size: 13px;
+    padding: 10px;
+    margin: 10px 0px;
+    display: inline-block;
+    transition: .4s;
+}
+
+.article a:hover{
+    background: olivedrab;
+    transition: .4s;
+}
+
+
+
+#aside{
+
+    /*flex: 1 1 auto;*/
+    margin: 5px 5px 5px 17px;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    float: right;
+
+     
+}
+
+.publicidad{
+
+    margin: 5px;
+}
+
+
+.publicidad img{
+    border-radius: 5px;
+    
+}
+
+
+#blog .principal{
+    width: 60%;
+    float: left;
+    margin-left: 20px;
+}
+
+#blog .publi{
+    width: 30%;
+}

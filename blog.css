@@ -1,0 +1,39 @@
+#blog h3,h4{
+    /*text-align: center;*/
+    margin: 10px;
+}
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 6px rgba(250, 182, 182, 0.5);
+    width: 95%;
+   
+}
+
+#blog article{
+    margin: 15px;
+    
+}
+
+#blog article p{
+    max-width: 290px;
+    text-align: center;
+    
+}
+
+#blog img{
+    width: 100%;
+   max-width: 290px;
+   max-height: 180px;
+   border-radius: 3px;
+
+   display:block;
+   margin:auto;
+   
+  
+}
+
+
+
